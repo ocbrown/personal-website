@@ -1,5 +1,6 @@
 import MainLayout from "@/layouts/MainLayout";
 import Head from "next/head";
+import Home from "@/components/Home";
 
 
 const Index = () => {
@@ -8,6 +9,7 @@ const Index = () => {
       <Head>
         <title>Oliver Brown</title>
       </Head>
+      <Home/>
       
     </MainLayout>
   );
